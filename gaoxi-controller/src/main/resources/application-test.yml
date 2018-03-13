@@ -1,0 +1,18 @@
+logging:
+  file: gaoxi-log/user-log.log
+#数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://172.0.0.1:3306/gaoxi?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: 123456
+
+
+#Dubbo服务提供者配置
+spring.dubbo.application.name: controller-consumer
+spring.dubbo.registry.address: zookeeper://192.168.64.130:2182
+spring.dubbo.protocol.name: dubbo
+spring.dubbo.protocol.port: 20880
+spring.dubbo.scan: com.gaoxi.gaoxicontroller.controller
+
