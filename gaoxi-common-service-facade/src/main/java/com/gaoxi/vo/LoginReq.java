@@ -1,4 +1,4 @@
-package com.gaoxi.gaoxicommonservicefacade.vo;
+package com.gaoxi.vo;
 
 public class LoginReq {
     private String name;
