@@ -17,6 +17,12 @@
 		<version>0.0.1-SNAPSHOT</version>
 		<relativePath>../pom.xml</relativePath>
 	</parent>
-
+	<dependencies>
+		<dependency>
+			<groupId>com.gaoxi</groupId>
+			<artifactId>gaoxi-common-service-facade</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 
 </project>

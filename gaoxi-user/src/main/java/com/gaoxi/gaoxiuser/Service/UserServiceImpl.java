@@ -1,9 +1,9 @@
 package com.gaoxi.gaoxiuser.Service;
 
 import com.alibaba.dubbo.config.annotation.Service;
-import com.gaoxi.gaoxicommonservicefacade.service.UserService;
-import com.gaoxi.gaoxicommonservicefacade.vo.LoginReq;
-import com.gaoxi.gaoxicommonservicefacade.vo.UserEntity;
+import com.gaoxi.service.UserService;
+import com.gaoxi.vo.LoginReq;
+import com.gaoxi.vo.UserEntity;
 
 @Service(version = "1.0.0")
 public class UserServiceImpl implements UserService {
